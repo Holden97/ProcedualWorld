@@ -308,6 +308,21 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Unity Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -725,6 +740,10 @@
       <Project>{8B1E070B-65CA-3DA9-670B-B6062CCE9D33}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{87CC21E9-0D5B-BF89-4142-79565453903B}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{EED7EA60-76B2-5B7B-9926-9EAE8699D9EC}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
@@ -769,9 +788,17 @@
       <Project>{2DD36AFE-81A1-CB98-28B8-040D5FD57D61}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{E206AB53-2EB9-EA5F-18E9-CC35434CE5F5}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
       <Project>{47F59D87-F4B8-F6B3-B907-1D0D7A9540E7}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{45E9A974-917B-767F-BCD8-C374038BEE4A}</Project>
+      <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{5C9C90D8-3741-EA59-C046-9CA21740073A}</Project>
@@ -784,6 +811,10 @@
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
       <Project>{1F1A2DAF-B279-1F84-532E-BAE36BD1B356}</Project>
       <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{6655CCBB-C552-0EE9-BA1C-B5E1A9246E83}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{C399B8AA-3352-F81D-5357-049E5A1372B1}</Project>
