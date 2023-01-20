@@ -58,7 +58,6 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ProcedualWorld\Chunk.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\MeshUtils.cs" />
-    <Compile Include="Assets\CubeProperties.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Block.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Quad.cs" />
     <Compile Include="Assets\Scripts\Other\CameraController.cs" />
