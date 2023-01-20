@@ -10,7 +10,6 @@ namespace ProcedualWorld
     public class PerlinNoiseMap : MonoBehaviour
     {
         Dictionary<int, Sprite> tileset;
-        Dictionary<int, GameObject> tile_groups;
         [SerializeField]
         TextureManager textureManager;
         [SerializeField]
@@ -18,13 +17,15 @@ namespace ProcedualWorld
         [SerializeField]
         private string seed;
 
-        private int map_width = 16;
-        private int map_height = 9;
+        private int SeedToInt()
+        {
+            return seed.GetHashCode() % 100;
+        }
 
-        private float magnification = 7.0f;
-        float real_scale = Mathf.PI / 3;
-        public int x_offset = 0;
-        public int y_offset = 0;
+        public int map_width = 32;
+        public int map_height = 18;
+
+        public float lacunarity = 2;
 
         private void Start()
         {
@@ -55,7 +56,7 @@ namespace ProcedualWorld
 
         private int GetIdUsingPerlin(int x, int y)
         {
-            float rawPerlin = Mathf.PerlinNoise((float)x / map_width, (float)y / map_height);
+            float rawPerlin = Mathf.PerlinNoise((float)x / map_width * lacunarity + SeedToInt(), (float)y / map_height * lacunarity + SeedToInt());
             float clamp_perlin = Mathf.Clamp(rawPerlin, 0, 1);
             float scale_perlin = clamp_perlin * tileset.Count;
             if (scale_perlin == 4)
