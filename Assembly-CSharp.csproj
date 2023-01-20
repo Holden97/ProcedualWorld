@@ -60,7 +60,7 @@
     <Compile Include="Assets\Scripts\ProcedualWorld\MeshUtils.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Block.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Quad.cs" />
-    <Compile Include="Assets\Scripts\Other\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Utilities\CameraUtility\CameraController.cs" />
     <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDatabase.cs" />
     <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDetail.cs" />
     <Compile Include="Assets\Scripts\MultipleTextureManager\TextureManager.cs" />
