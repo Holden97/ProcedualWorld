@@ -37,9 +37,9 @@ namespace ProcedualWorld
         {
             tileset = new Dictionary<int, Sprite>();
             tileset.Add(0, textureManager.GetTerrain("TEX_plain"));
-            tileset.Add(1, textureManager.GetTerrain("TEX_hill"));
-            tileset.Add(2, textureManager.GetTerrain("TEX_mountain"));
-            tileset.Add(3, textureManager.GetTerrain("TEX_forest"));
+            tileset.Add(1, textureManager.GetTerrain("TEX_forest"));
+            tileset.Add(2, textureManager.GetTerrain("TEX_hill"));
+            tileset.Add(3, textureManager.GetTerrain("TEX_mountain"));
         }
 
         private void GenerateMap()
