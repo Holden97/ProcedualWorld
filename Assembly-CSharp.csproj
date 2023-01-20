@@ -56,15 +56,15 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDatabase.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Chunk.cs" />
+    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDetail.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\MeshUtils.cs" />
+    <Compile Include="Assets\Scripts\ProcedualWorld\PerlinNoiseMap.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Block.cs" />
+    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureManager.cs" />
     <Compile Include="Assets\Scripts\ProcedualWorld\Quad.cs" />
     <Compile Include="Assets\Scripts\Utilities\CameraUtility\CameraController.cs" />
-    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDatabase.cs" />
-    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureDetail.cs" />
-    <Compile Include="Assets\Scripts\MultipleTextureManager\TextureManager.cs" />
-    <Compile Include="Assets\Scripts\ProcedualWorld\PerlinNoiseMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
