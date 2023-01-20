@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: TextureDatabase
   m_EditorClassIdentifier: 
   textureDetailList:
+  - spriteName: TEX_water
+    sprite: {fileID: 1289756732, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
   - spriteName: TEX_plain
     sprite: {fileID: 1732829769, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
-  - spriteName: TEX_forest
-    sprite: {fileID: 249167523, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
-  - spriteName: TEX_hill
-    sprite: {fileID: 1615952462, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
   - spriteName: TEX_mountain
-    sprite: {fileID: 1277404909, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
+    sprite: {fileID: -1788218014, guid: 3099b397928e3484bbd4e42d5eeacd2f, type: 3}
